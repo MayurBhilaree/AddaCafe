@@ -1,0 +1,283 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: black; */
+}
+#navbar
+{
+color: white;
+background-color: black;
+}
+#navbarbrand
+{
+    font-weight: 700;
+    font-family: "Madimi One", sans-serif;
+    font-size: 25px;
+    margin-left: 1%;
+    color: orange;
+}
+nav img
+{
+    border-radius: 50%;
+    
+}
+.navbarul a
+{
+    /* border: 1px solid white; */
+    font-family: "Madimi One", sans-serif;
+    font-weight: 600;
+    padding: 2px;
+    margin: 10px;
+    color: white;
+    font-size: 18px;
+}
+.navbarul a:hover
+{   
+    color: orange;
+}
+.navbar-toggler
+{
+    /* background-color: white; */
+    border: 1px solid white;
+    
+}
+.navbar-toggler-icon
+{
+    color: white !important;
+}
+
+.header
+{
+    /* background: url(./images/backimg.webp);
+    background-position: center;
+    background-size: cover; */
+    background-color: black;
+    width: 100vw;
+    /* opacity: .8; */
+    height: 100vh;
+    /* backdrop-filter: 10px; */
+    filter: blur(10px);
+    /* opacity: .5; */
+    position: relative;
+    z-index: 0;
+ }
+.head1
+{
+    /* display: flex; */
+    color: white;
+    position:absolute;
+    z-index: 2;
+}
+.head1 h1
+{
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 900;
+  font-size: 60px;
+  letter-spacing: 5px;
+  color: rgb(255, 132, 0);
+}
+#bannerimg
+{
+    width: 80%;
+    /* height: 95%; */
+    animation: round 15s linear infinite;
+}
+.bannerp
+{
+    font-family: "Kanit", sans-serif;
+    font-size: 20px;
+    padding:15px;
+    font-weight: 600;
+    /* line-height: 30px; */
+}
+@keyframes round
+{
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}
+@media (max-width:768px)
+{
+    .header
+    {
+        height:100vh;
+    }
+    #bannerimg
+{
+    width: 40%;
+    /* animation: round 15s linear infinite; */
+}
+}
+@media (max-width:602px)
+{
+    
+    #bannerimg
+{
+    width: 50%;
+    /* animation: round 15s linear infinite; */
+}
+}
+@media (max-width:519px)
+{
+    
+    #bannerimg
+{
+    width: 60%;
+    /* animation: round 15s linear infinite; */
+}
+}
+@media (max-width:434px)
+{ 
+    #bannerimg
+{
+    width: 60%;
+    /* animation: round 15s linear infinite; */
+}
+}
+@media (max-width:363px)
+{ 
+    #bannerimg
+{
+    width: 65%;
+    /* animation: round 15s linear infinite; */
+}
+}
+@media (max-width:309px)
+{ 
+    .head1 h1
+    {
+        font-size: 50px;
+    }
+    #bannerimg
+{
+    width: 80%;
+    /* animation: round 15s linear infinite; */
+}
+}
+@media (max-width:992px)
+{
+    .header
+{
+    background: url(./images/backimg.webp);
+    background-position: center;
+    background-size: cover;
+    /* background-color: black; */
+    width: 100vw;
+    /* opacity: .8; */
+    height: 100vh;
+    /* backdrop-filter: 10px; */
+    filter: blur(10px);
+    /* opacity: .5; */
+    position: relative;
+    z-index: 0;
+    
+ }
+.head1
+{
+    /* display: flex; */
+    color: white;
+    
+    position:absolute;
+    z-index: 2;
+}
+.head1 h1
+{
+    color: white !important;
+}
+}
+
+
+.abt img
+{
+    width: 100%;
+    height: 90%;
+    padding: 2%;
+}
+.abt h1
+{
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 900;
+  letter-spacing: 5px;
+}
+.abt p{
+    font-family: "Kanit", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px;
+    letter-spacing: 2px;
+}
+
+
+.menu img
+{
+    aspect-ratio: 3/2;
+    /* object-fit:; */
+    width: 50%;
+    /* border: 1px solid whitesmoke; */
+    padding: 1%;
+}
+.menhead
+{
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 900;
+  letter-spacing: 5px;
+}
+
+
+.mhead
+{
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 900;
+  letter-spacing: 5px;
+}
+
+.menucard hr
+{
+    width: 15vw;
+    height: 3px;
+    color:#669a00;
+    margin: 0 auto;
+}
+.dish
+{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px dotted black;
+}
+.dishhead
+{
+    font-family: "Madimi One", sans-serif;
+    font-size: 20px;
+}
+.menuhead
+{
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 900;
+  letter-spacing: 5px;
+}
+
+.dishdes
+{
+    font-family: "Kanit", sans-serif;
+}
+
+.contact input , textarea
+{
+margin: 3%;
+font-family: "Madimi One", sans-serif;
+}
+.cntc
+{
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 900;
+  letter-spacing: 5px;
+}
+
+
